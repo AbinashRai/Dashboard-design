@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Sidebar = () => {
   return (
-    <div>
-      
+    <div className="w-[20%] flex items-center justify-center">
+      This is a Sidebar.
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
