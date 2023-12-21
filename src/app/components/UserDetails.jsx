@@ -1,4 +1,7 @@
 import React from "react";
+import { BsDownload } from "react-icons/bs";
+import { CgSortAz } from "react-icons/cg";
+import { FiSearch } from "react-icons/fi";
 
 const UserDetails = () => {
   return (
@@ -6,10 +9,21 @@ const UserDetails = () => {
       <div className="flex justify-between mb-4 font-medium">
         <h1>Projects</h1>
         <input
-          className="border m-0 text-md p-2 rounded-md w-[40%]"
+          className="border m-0 text-md p-2 rounded-md w-[40%] relative"
           type="text"
           placeholder="Search by Beneficiary id, name and contact or email"
         />
+        <div className="absolute top-[268px] right-[55px]">
+          <FiSearch />
+        </div>
+      </div>
+      <div className="flex">
+        <div className="mr-5 mb-5 text-2xl">
+          <BsDownload />
+        </div>
+        <div className="text-3xl">
+          <CgSortAz />
+        </div>
       </div>
       <div>
         <table className="table w-full">
