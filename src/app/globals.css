@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+  margin-right: 30px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.circular-input {
+  border-radius: 50%;
+}
