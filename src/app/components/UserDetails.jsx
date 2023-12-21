@@ -13,7 +13,7 @@ const UserDetails = () => {
           type="text"
           placeholder="Search by Beneficiary id, name and contact or email"
         />
-        <div className="absolute top-[268px] right-[55px]">
+        <div className="absolute top-[261px] xl:top-[279px] right-[55px]">
           <FiSearch />
         </div>
       </div>
@@ -25,8 +25,8 @@ const UserDetails = () => {
           <CgSortAz />
         </div>
       </div>
-      <div>
-        <table className="table w-full">
+      <div className="overflow-x-auto">
+        <table className="table-auto w-full">
           <thead>
             <tr className="border">
               <th className="text-start p-2">
